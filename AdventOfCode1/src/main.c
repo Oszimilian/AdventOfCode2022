@@ -15,31 +15,26 @@ int main(int argc, char **argv)
 {
 	printf("Test \n");
 
-	FILE *output = fopen("output.txt", "w");
-	FILE *input = fopen("in.txt", "r+");
+
+	FILE *input = fopen("Inputs/day3.txt", "r+");
 
 	List *inputList = createList();
 
-
-
 	inputFileToList(input, inputList);
 
-	//printList(inputList);
+	//dayOneFirst(input, inputList);
+	//dayOneSecond(input, inputList);
 
-	//reversePrintList(inputList);
+	//dayTwoFirst(input, inputList);
+	//dayTwoSecond(input, inputList);
 
-	/*
-	for (int i = 0; i < inputList->listLenagh; i++)
-	{
-		wirteLineToFile(output, getStrFromList(inputList,i));
-	}
-	*/
-
-	dayOneFirst(input, inputList);
-	dayOneSecond(input, inputList);
+	dayThreeFirst(input, inputList);
+	dayThreeSecond(input, inputList);
 
 	fclose(input);
-	fclose(output);
+
+	int wait;
+	scanf("%d ", &wait);
 
 	return EXIT_SUCCESS;
 }
