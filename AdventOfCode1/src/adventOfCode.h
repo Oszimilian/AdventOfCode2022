@@ -8,7 +8,7 @@
 #ifndef ADVENTOFCODE_H_
 #define ADVENTOFCODE_H_
 
-void dayOne(FILE *input, List *list);
-void dayTwo(FILE *input, List *list);
+void dayOneFirst(FILE *input, List *list);
+void dayOneSecond(FILE *input, List *list);
 
 #endif /* ADVENTOFCODE_H_ */

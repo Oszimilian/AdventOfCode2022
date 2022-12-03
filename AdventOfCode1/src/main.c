@@ -35,8 +35,8 @@ int main(int argc, char **argv)
 	}
 	*/
 
-	dayOne(input, inputList);
-	dayTwo(input, inputList);
+	dayOneFirst(input, inputList);
+	dayOneSecond(input, inputList);
 
 	fclose(input);
 	fclose(output);
