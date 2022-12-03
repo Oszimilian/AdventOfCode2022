@@ -11,7 +11,7 @@
 #include "myFile.h"
 #include "adventOfCode.h"
 
-void dayOne(FILE *input, List *list)
+void dayOneFirst(FILE *input, List *list)
 {
 	int caloriecount = 0;
 	int count = 0;
@@ -37,7 +37,7 @@ void dayOne(FILE *input, List *list)
 		}
 	}while (getStrFromList(list, count + 1) != NULL);
 
-	printf("-> %d : %d \n", elf, maxCalorie);
+	printf("1.1 -> %d \n", maxCalorie);
 }
 
 void swap(int *x, int *y)
@@ -62,7 +62,7 @@ void bubbleSort(int *arr, int n)
 	}
 }
 
-void dayTwo(FILE *input, List *list)
+void dayOneSecond(FILE *input, List *list)
 {
 	int caloriecount = 0;
 	int count = 0;
@@ -90,9 +90,8 @@ void dayTwo(FILE *input, List *list)
 
 	for (int i = 1; i < 4; i++)
 	{
-		printf("%d: %d \n", i, maxCalorie[i]);
 		totalCalorie += maxCalorie[i];
 	}
 
-	printf("-> %d \n", totalCalorie);
+	printf("1.2 -> %d \n", totalCalorie);
 }
