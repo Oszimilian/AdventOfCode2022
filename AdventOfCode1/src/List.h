@@ -25,5 +25,7 @@ Element *getElementAtIndex(List *list, int index);
 void printList(const List *list);
 void reversePrintList(const List *list);
 char *getStrFromList(List *list, int index);
+Element *listPopHead(List *list);
+Element *listPopChainHead(List *list, int n);
 
 #endif /* LIST_H_ */

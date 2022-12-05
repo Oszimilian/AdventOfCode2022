@@ -35,4 +35,7 @@ void dayThreeSecond(FILE *input, List *list);
 void dayFourFirst(FILE *input, List *list);
 void dayFourSecond(FILE *input, List *list);
 
+void dayFiveFirst(FILE *input, List *list);
+void dayFiveSecond(FILE *input, List *list);
+
 #endif /* ADVENTOFCODE_H_ */

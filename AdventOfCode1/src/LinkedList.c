@@ -61,7 +61,7 @@ void printList(const List *list)
 {
 	Element *element = list->head;
 
-	printf("\n");
+	//printf("\n");
 
 	if (element == NULL)
 	{
@@ -70,7 +70,7 @@ void printList(const List *list)
 
 	while(element != NULL)
 	{
-		printf("%s - %x\n", element->str, element->str[0]);
+		printf("%s ", element->str);
 
 		element = element->next;
 
@@ -122,4 +122,25 @@ char *getStrFromList(List *list, int index)
 	} else {
 		return element->str;
 	}
+}
+
+Element *listPopHead(List *list)
+{
+	Element *element = list->head;
+	list->head = list->head->next;
+	return element;
+}
+
+Element *listPopChainHead(List *list, int n)
+{
+	Element *element = getElementAtIndex(list, n - 1);
+
+	list->head = element->next;
+
+	if (list->head != NULL)
+	{
+		list->head->prev = NULL;
+	}
+
+	return element;
 }
