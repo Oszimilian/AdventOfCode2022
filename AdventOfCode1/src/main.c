@@ -16,11 +16,13 @@ int main(int argc, char **argv)
 
 
 
-	FILE *input = fopen("Inputs/day5.txt", "r+");
+	FILE *input = fopen("Inputs/day6.txt", "r+");
 
 	List *inputList = createList();
 
 	inputFileToList(input, inputList);
+
+
 
 	//dayOneFirst(input, inputList);
 	//dayOneSecond(input, inputList);
@@ -35,7 +37,10 @@ int main(int argc, char **argv)
 	//dayFourSecond(input, inputList);
 
 	//dayFiveFirst(input, inputList);
-	dayFiveSecond(input, inputList);
+	//dayFiveSecond(input, inputList);
+
+	daySixFirst(input, inputList);
+	daySixSecond(input, inputList);
 
 	fclose(input);
 

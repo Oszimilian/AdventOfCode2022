@@ -8,7 +8,7 @@
 #ifndef ELEMENT_H_
 #define ELEMENT_H_
 
-#define MAX_LINE_LEANGH 128
+#define MAX_LINE_LEANGH 4100
 
 struct Element
 {
