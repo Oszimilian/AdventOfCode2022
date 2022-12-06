@@ -24,9 +24,6 @@ int cmpElements(char *str, int n)
 	{
 		for (int j = i + 1; j < n; j++)
 		{
-			char c1 = str[i];
-			char c2 = str[j];
-
 			if (str[i] == str[j])
 			{
 				return FALSE;
@@ -53,12 +50,14 @@ void daySixFirst(FILE *input, List *list)
 		count++;
 	}
 	count--;
-	printf("%d %c \n", count + searchamount);
+	printf("-->%d ", count + searchamount);
 
 	for (int i = 0; i < searchamount; i++)
 	{
-		printf("->%c \n", str[count + i]);
+		printf("%c ", str[count + i]);
 	}
+
+	printf("\n");
 }
 
 void daySixSecond(FILE *input, List *list)
@@ -77,11 +76,13 @@ void daySixSecond(FILE *input, List *list)
 		count++;
 	}
 	count--;
-	printf("%d %c \n", count + searchamount);
+	printf("-->%d ", count + searchamount);
 
 	for (int i = 0; i < searchamount; i++)
 	{
-		printf("->%c \n", str[count + i]);
+		printf("%c ", str[count + i]);
 	}
+
+	printf("\n");
 }
 
