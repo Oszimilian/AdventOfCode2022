@@ -41,4 +41,10 @@ void dayFiveSecond(FILE *input, List *list);
 void daySixFirst(FILE *input, List *list);
 void daySixSecond(FILE *input, List *list);
 
+void daySevenFirstAndSecond(FILE *input, List *list);
+void bubbleSort(int *arr, int n);
+
+void dayEightFirst(FILE *input, List *list);
+void dayEightSecond(FILE *input, List *list);
+
 #endif /* ADVENTOFCODE_H_ */
