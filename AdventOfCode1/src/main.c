@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 
 
-	FILE *input = fopen("Inputs/day8.txt", "r+");
+	FILE *input = fopen("/home/maximilian/CLionProjects/AdventOfCode2022/AdventOfCode1/Inputs/day9.txt", "r+");
 
 	List *inputList = createList();
 
@@ -45,7 +45,10 @@ int main(int argc, char **argv)
 	//daySevenFirstAndSecond(input, inputList);
 
 	//dayEightFirst(input, inputList);
-	dayEightSecond(input, inputList);
+	//dayEightSecond(input, inputList);
+
+    //dayNineFirst(inputList);
+    dayNineSecond(inputList);
 
 	fclose(input);
 

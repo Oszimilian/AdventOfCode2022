@@ -47,4 +47,7 @@ void bubbleSort(int *arr, int n);
 void dayEightFirst(FILE *input, List *list);
 void dayEightSecond(FILE *input, List *list);
 
+void dayNineFirst(List *list);
+void dayNineSecond(List *list);
+
 #endif /* ADVENTOFCODE_H_ */
