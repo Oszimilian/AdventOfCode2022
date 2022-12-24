@@ -112,6 +112,13 @@ build CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day9.c.o: C_COMPILER__Ad
   OBJECT_DIR = CMakeFiles/AdventOfCode2022.dir
   OBJECT_FILE_DIR = CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src
 
+build CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day10.c.o: C_COMPILER__AdventOfCode2022_Debug /home/maximilian/CLionProjects/AdventOfCode2022/AdventOfCode1/src/day10.c || cmake_object_order_depends_target_AdventOfCode2022
+  DEP_FILE = CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day10.c.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  INCLUDES = -I/home/maximilian/CLionProjects/AdventOfCode2022/AdventOfCode1/src
+  OBJECT_DIR = CMakeFiles/AdventOfCode2022.dir
+  OBJECT_FILE_DIR = CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AdventOfCode2022
@@ -120,7 +127,7 @@ build CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day9.c.o: C_COMPILER__Ad
 #############################################
 # Link the executable AdventOfCode2022
 
-build AdventOfCode2022: C_EXECUTABLE_LINKER__AdventOfCode2022_Debug CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/adventOfCode.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day6.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day7.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day8.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/LinkedList.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/main.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/myFile.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/tree.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day9.c.o
+build AdventOfCode2022: C_EXECUTABLE_LINKER__AdventOfCode2022_Debug CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/adventOfCode.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day6.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day7.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day8.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/LinkedList.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/main.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/myFile.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/tree.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day9.c.o CMakeFiles/AdventOfCode2022.dir/AdventOfCode1/src/day10.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/AdventOfCode2022.dir
   POST_BUILD = :

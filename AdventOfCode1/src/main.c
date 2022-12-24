@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 
 
-	FILE *input = fopen("/home/maximilian/CLionProjects/AdventOfCode2022/AdventOfCode1/Inputs/day9.txt", "r+");
+	FILE *input = fopen("/home/maximilian/CLionProjects/AdventOfCode2022/AdventOfCode1/Inputs/day10.txt", "r+");
 
 	List *inputList = createList();
 
@@ -48,12 +48,14 @@ int main(int argc, char **argv)
 	//dayEightSecond(input, inputList);
 
     //dayNineFirst(inputList);
-    dayNineSecond(inputList);
+    //dayNineSecond(inputList);
+
+    //dayTenFirst(inputList);
+    dayTenSecond(inputList);
 
 	fclose(input);
 
-	int wait;
-	scanf("%d ", &wait);
+
 
 	return EXIT_SUCCESS;
 }

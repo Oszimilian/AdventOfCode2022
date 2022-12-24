@@ -50,4 +50,7 @@ void dayEightSecond(FILE *input, List *list);
 void dayNineFirst(List *list);
 void dayNineSecond(List *list);
 
+void dayTenFirst(List *list);
+void dayTenSecond(List *list);
+
 #endif /* ADVENTOFCODE_H_ */

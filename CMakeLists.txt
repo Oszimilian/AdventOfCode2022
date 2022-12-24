@@ -18,4 +18,4 @@ add_executable(AdventOfCode2022
         AdventOfCode1/src/myFile.c
         AdventOfCode1/src/myFile.h
         AdventOfCode1/src/tree.c
-        AdventOfCode1/src/tree.h AdventOfCode1/src/day9.c)
+        AdventOfCode1/src/tree.h AdventOfCode1/src/day9.c AdventOfCode1/src/day10.c)
